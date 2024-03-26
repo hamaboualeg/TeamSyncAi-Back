@@ -4,7 +4,7 @@ import google.generativeai as genai
 
 app = Flask(__name__)
 
-genai.configure(api_key="AIzaSyALK9FqS1q-mBz_WSeniUaUlyn5yLM0v6o")
+genai.configure(api_key="secret key")
 model = genai.GenerativeModel('gemini-pro')
 NODE_SERVER_URL = 'http://localhost:3000/modules/receive_modules'
 
